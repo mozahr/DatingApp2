@@ -19,7 +19,7 @@ model: any = {};
     console.log('Logged in successfully');
 
    }, error => {
-     console.log('Failed to Login');
+     console.log(error);
    });
   }
   loggedIn() {
